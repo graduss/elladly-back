@@ -21,15 +21,6 @@
     "price": {
       "type": "decimal"
     },
-    "image": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "videos"
-      ]
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
@@ -40,22 +31,23 @@
       "target": "api::category.category",
       "mappedBy": "products"
     },
-    "Custom_field": {
-      "type": "component",
-      "repeatable": true,
-      "component": "custom.custom-field"
-    },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "draft",
-        "published"
-      ],
-      "default": "published",
-      "required": true
-    },
     "description": {
       "type": "richtext"
+    },
+    "Available": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "colors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.color"
+    },
+    "Material": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.material"
     }
   }
 }

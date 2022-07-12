@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_cloth_sizes",
+  "info": {
+    "displayName": "Size",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Size": {
+      "type": "enumeration",
+      "enum": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ],
+      "required": true
+    }
+  }
+}

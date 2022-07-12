@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_product_materials",
+  "info": {
+    "displayName": "Material",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "Material": {
+      "type": "enumeration",
+      "enum": [
+        "Linen",
+        "Linen-Cotton",
+        "Linen-Silk",
+        "Linen-Viscose"
+      ]
+    }
+  }
+}

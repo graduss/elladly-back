@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_product_colors",
+  "info": {
+    "displayName": "color",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Color": {
+      "type": "enumeration",
+      "enum": [
+        "White"
+      ]
+    },
+    "Size": {
+      "displayName": "Size",
+      "type": "component",
+      "repeatable": true,
+      "component": "cloth.size"
+    },
+    "Photos": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
