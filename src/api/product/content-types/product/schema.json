@@ -39,15 +39,11 @@
       "default": true,
       "required": true
     },
-    "colors": {
-      "type": "component",
-      "repeatable": true,
-      "component": "product.color"
-    },
-    "Material": {
+    "Cloth": {
       "type": "component",
       "repeatable": false,
-      "component": "product.material"
+      "component": "product.material",
+      "required": true
     }
   }
 }

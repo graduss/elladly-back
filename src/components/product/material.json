@@ -1,12 +1,13 @@
 {
   "collectionName": "components_product_materials",
   "info": {
-    "displayName": "Material",
-    "icon": "asterisk"
+    "displayName": "Cloth",
+    "icon": "asterisk",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Material": {
+    "Cloth": {
       "type": "enumeration",
       "enum": [
         "Linen",

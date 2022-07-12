@@ -17,15 +17,16 @@
       "displayName": "Size",
       "type": "component",
       "repeatable": true,
-      "component": "cloth.size"
+      "component": "clothes.size"
     },
     "Photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
